@@ -78,7 +78,7 @@
 		1E53D41725AEC78400301534 /* FBStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBStorage.swift; sourceTree = "<group>"; };
 		1E53D41825AEC78400301534 /* FBCurrent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBCurrent.swift; sourceTree = "<group>"; };
 		1E53D41925AEC78400301534 /* FBNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBNotice.swift; sourceTree = "<group>"; };
-		1E5726E525AD2DBE00CC2AE3 /* kymaryam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kymaryam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5726E525AD2DBE00CC2AE3 /* KY Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KY Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5726E825AD2DBE00CC2AE3 /* kymaryamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kymaryamApp.swift; sourceTree = "<group>"; };
 		1E5726EA25AD2DBE00CC2AE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E5726EC25AD2DBF00CC2AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 		1E5726DC25AD2DBE00CC2AE3 = {
 			isa = PBXGroup;
 			children = (
-				1E5726E725AD2DBE00CC2AE3 /* kymaryam */,
+				1E5726E725AD2DBE00CC2AE3 /* KY Mobile */,
 				1E5726E625AD2DBE00CC2AE3 /* Products */,
 				89DE004CAF4F179AEF99AD95 /* Pods */,
 				2568A473DF248B6BF8D93BCB /* Frameworks */,
@@ -178,12 +178,12 @@
 		1E5726E625AD2DBE00CC2AE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E5726E525AD2DBE00CC2AE3 /* kymaryam.app */,
+				1E5726E525AD2DBE00CC2AE3 /* KY Mobile.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E5726E725AD2DBE00CC2AE3 /* kymaryam */ = {
+		1E5726E725AD2DBE00CC2AE3 /* KY Mobile */ = {
 			isa = PBXGroup;
 			children = (
 				1E5726E825AD2DBE00CC2AE3 /* kymaryamApp.swift */,
@@ -201,7 +201,7 @@
 				1E5726F125AD2DBF00CC2AE3 /* Info.plist */,
 				1E5726EE25AD2DBF00CC2AE3 /* Preview Content */,
 			);
-			path = kymaryam;
+			path = "KY Mobile";
 			sourceTree = "<group>";
 		};
 		1E5726EE25AD2DBF00CC2AE3 /* Preview Content */ = {
@@ -419,9 +419,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E5726E425AD2DBE00CC2AE3 /* kymaryam */ = {
+		1E5726E425AD2DBE00CC2AE3 /* KY Mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E5726F425AD2DBF00CC2AE3 /* Build configuration list for PBXNativeTarget "kymaryam" */;
+			buildConfigurationList = 1E5726F425AD2DBF00CC2AE3 /* Build configuration list for PBXNativeTarget "KY Mobile" */;
 			buildPhases = (
 				E4D32F36D0655B9E94B84F4F /* [CP] Check Pods Manifest.lock */,
 				1E5726E125AD2DBE00CC2AE3 /* Sources */,
@@ -433,9 +433,9 @@
 			);
 			dependencies = (
 			);
-			name = kymaryam;
+			name = "KY Mobile";
 			productName = kymaryam;
-			productReference = 1E5726E525AD2DBE00CC2AE3 /* kymaryam.app */;
+			productReference = 1E5726E525AD2DBE00CC2AE3 /* KY Mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -452,7 +452,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E5726E025AD2DBE00CC2AE3 /* Build configuration list for PBXProject "kymaryam" */;
+			buildConfigurationList = 1E5726E025AD2DBE00CC2AE3 /* Build configuration list for PBXProject "KY Mobile" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -465,7 +465,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E5726E425AD2DBE00CC2AE3 /* kymaryam */,
+				1E5726E425AD2DBE00CC2AE3 /* KY Mobile */,
 			);
 		};
 /* End PBXProject section */
@@ -728,7 +728,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = maryamsafiyah.kymaryam;
+				PRODUCT_BUNDLE_IDENTIFIER = kymobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -751,7 +751,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = maryamsafiyah.kymaryam;
+				PRODUCT_BUNDLE_IDENTIFIER = kymobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -761,7 +761,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E5726E025AD2DBE00CC2AE3 /* Build configuration list for PBXProject "kymaryam" */ = {
+		1E5726E025AD2DBE00CC2AE3 /* Build configuration list for PBXProject "KY Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E5726F225AD2DBF00CC2AE3 /* Debug */,
@@ -770,7 +770,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E5726F425AD2DBF00CC2AE3 /* Build configuration list for PBXNativeTarget "kymaryam" */ = {
+		1E5726F425AD2DBF00CC2AE3 /* Build configuration list for PBXNativeTarget "KY Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E5726F525AD2DBF00CC2AE3 /* Debug */,
