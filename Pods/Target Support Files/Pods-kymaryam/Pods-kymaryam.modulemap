@@ -1,0 +1,6 @@
+framework module Pods_kymaryam {
+  umbrella header "Pods-kymaryam-umbrella.h"
+
+  export *
+  module * { export * }
+}
